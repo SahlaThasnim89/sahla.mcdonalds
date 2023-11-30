@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's: Burgers, Fries & More. Quality Ingredients.</title>
+    <link rel="shortcut icon" href="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;800;1000&family=Poppins:wght@100;400&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="Header-logo" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg" alt="">
+            <div class="header-nav">
+            <div class="navbar1">
+                <div class="header-right">
+                    <div class="language-navigation">
+                            <select name="" id="">
+                                <option value="0">Language</option>
+                                <option value="1">English</option>
+                                <option value="2">Español</option>
+                            </select>
+                    </div>
+                        <div class="nav-items">
+                            <p class="sign-up">Sign up for Email</p>
+                            <p>Careers</p>
+                        </div>
+                </div>
+
+
+                    <div class="secondary-links-right">
+                        <div class="search-det">
+                            <img class="img1" src="data:image/png;base64,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" alt="">
+                            <input class="search-btn" type="text" placeholder="Search">
+                        </div>
+                        <div class="location-det">
+                            <img class="img2" src="data:image/png;base64,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" alt="">
+                            <a href="">Change your location</a>
+                        </div>
+                        <div class="Order-btn">
+                            <input type="submit" value="Order Now">
+                        </div>
+                    </div>
+            </div>
+
+            <div class="primary-nav">
+                <div class="Main-menu">
+                    <select name="" id="">
+                        <option value="">Main Menu</option>
+                    </select>
+                </div>
+                <div class="options">
+                    <p>Download App</p>
+                    <p>MyMcDonald's Rewards</p>
+                    <p>Exclusive Deals</p>
+                    <p>About Our Food</p>
+                    <p>Locate</p>
+                    <p>Gift Cards</p>
+                </div>
+            </div> 
+            </div>
+        </div>
+    </header>
+
+
+    <!-- content starts here -->
+    
+    
+    <div class="main-body"> 
+        <div class="section">
+            <div class="left-part">
+                <img class="main-images" src="https://s7d1.scene7.com/is/image/mcdonalds/1pub_ProjectGator_Crocs_Launch_2336x1040_v2:1-column-desktop?resmode=sharp2" alt="">
+            </div>
+            <div class="right-part">
+                <h1>Step Into the World of McD's x Crocs</h1>
+                <p>Get a pair of McDonald's branded clogs or limited edition Grimace, Birdie or Hamburglar Crocs decked out with fun McDonald's x Crocs JibbitzTM charms or socks. Hurry, before it's too late.</p>
+                <p>* In celebration of the Crocs partnership, McDonald's will be making a donation to <a href="">Ronald McDonald House Charities®</a> to help support families when they have a child who is ill or injured.</p>
+                <p class="small-font">*While supplies last.</p>
+                <input class="main-buttons" type="submit" value="Shop the Collab Now">
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <div class="left-part">
+                <img class="main-images" src="https://s7d1.scene7.com/is/image/mcdonalds/1pub_FreeLargeFries_2336x1040v24:1-column-desktop?resmode=sharp2" alt="">
+            </div>
+            <div class="right-part">
+                <h1>Free Large Fries Now. Even More Fries Later.</h1>
+                <p>Download the McDonald's app and join MyMcDonald's Rewards to get your free large Fries with $1 minimum purchase.* Plus, when you join MyMcDonald's Rewards, you start earning points on every eligible order—points you can put towards more free food.</p>
+                <p class="small-font">*Offer valid 1x thru the last day of the month for first time app users at participating McDonald's. May take up to 48 hours to appear in your deals. Must opt in to MyMcDonald's Rewards. Excludes tax.</p>
+                <input class="main-buttons" type="submit" value="Get Free Fries in the App">
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <div class="left-part">
+                <img class="main-images" src="https://s7d1.scene7.com/is/image/mcdonalds/1pub_McDelivery_DigitalExperience4_Launch_2336x1040:1-column-desktop?resmode=sharp2" alt="">
+            </div>
+            <div class="right-part">
+                <h1>Forecast: $0 Delivery Fee in the App</h1>
+                <p>Whatever the weather, get your faves delivered with $0 Delivery Fee on a $15+ order, only in the app. Plus, earn points for free food on every order—and get them delivered, too. <a href="">Check out how easy ordering McDelivery is in the app.*</a></p>
+                <p class="small-font">*$15 minimum purchase required. Offer valid 1x/user from 11/13/23 thru 12/10/23 at participating McDonald's. Delivery prices may be higher than at restaurants. Must be opted into MyMcDonald's Rewards.</p>
+                <input class="main-buttons" type="submit" value="Get $0 Delivery Fee">
+            </div>
+        </div>
+
+
+        
+        <div class="section">
+            <div class="left-part">
+                <img class="main-images" src="https://s7d1.scene7.com/is/image/mcdonalds/1PUB_ROA_2336x1040v24:1-column-desktop?resmode=sharp2" alt="">
+            </div>
+            <div class="right-part">
+                <h1>Black & Positively Golden® Scholarship</h1>
+                <p>McDonald's partnership with the Thurgood Marshall College Fund is a major investment in education and opportunity in Black communities.</p>
+                <input class="main-buttons" type="submit" value="Learn More">
+            </div>
+        </div>
+
+
+
+        
+        <div class="section">
+            <div class="left-part">
+                <img class="main-images" src="https://s7d1.scene7.com/is/image/mcdonalds/1PUB_ROA_2336x1040v24:1-column-desktop?resmode=sharp2" alt="">
+            </div>
+            <div class="right-part">
+                <h1>New: Faster Faves, Only in the App</h1>
+                <p>We now prep when you're on the way if you choose Curbside, Front Counter—or dine in for Table Service. Just order ahead in the app to save time. Because waiting in line for faves? Not our thing either.*</p>
+                <p class="small-font">*At participating McDonald's.</p>
+                <input class="main-buttons" type="submit" value="Order Ahead in the App">
+            </div>
+        </div>
+
+
+
+
+        <div class="section">
+            <div class="left-part">
+                <img class="main-images" src="https://s7d1.scene7.com/is/image/mcdonalds/1PUB_Desktop_Deals_2336x1040:1-column-desktop?resmode=sharp2" alt="">
+            </div>
+            <div class="right-part">
+                <h1>Deals for Days</h1>
+                <p>Get <a href="">exclusive deals</a> on your McDonald's favorites in the app with contactless Mobile Order & Pay* and convenient Drive Thru or Curbside pickup.</p>
+                <p class="small-font">*Mobile Order & Pay at participating McDonald’s.</p>
+                <input class="main-buttons" type="submit" value="Get App Deals">
+            </div>
+        </div>
+
+    </div>
+    
+
+    <!-- main body ends here -->
+
+    <footer>
+        <div class="row">
+            <div class="column1">
+                <h1>About Us</h1>
+                <p>About Us Overview</p>
+                <p>Leadership Team</p>
+                <p>Values In Action</p>
+                <p>Franchise Info</p>
+                <p>Recalls & Alerts</p>
+                <p>Real Estate</p>
+                <p>Accessibility</p>
+                <p>Investor Relations</p>
+                <p>News & Notifications</p>
+            </div>
+
+            <div class="column2">
+                <h1>Services</h1>
+                <p>Services Overview</p>
+                <p>Wi-Fi</p>
+                <p>PlayPlaces & Parties</p>
+                <p>McDelivery®</p>
+                <p>Mobile Order & Pay</p>
+                <p>Trending Now</p>
+                <p>McDonald's Merchandise</p>
+                <p>Family Fun Hub</p>
+                <p>MyMcDonald's Rewards</p>
+                <p>McCafé®</p>
+            </div>
+
+            <div class="column3">
+                <h1>Community</h1>
+                <p>Community Overview</p>
+                <p>Now Serving</p>
+                <p>HACER® Scholarships for <br>Hispanic Students</p>
+                <p>Ronald McDonald House <br>Charities</p>
+                <p>McDonald's Asian Pacific <br>American</p>
+                <p>McDonald's International</p>
+                <p>Black and Positively Golden</p>
+                <p>McDonald's LGBTQ+</p>
+            </div>
+
+            <div class="column4">
+                <h1>Contact Us</h1>
+                <p>Contact Us Overview</p>
+                <p>Gift Card FAQs</p>
+                <p>Donations</p>
+                <p>Employment</p>
+                <p>Customer Feedback</p>
+                <p>Frequently Asked <br>Questions</p>
+            </div>
+        </div>
+
+    <div class="end-logos">
+        <div class="footer-end">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/facebook.png" alt="">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/x.png" alt="">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/youtube.png" alt="">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/instagram.png" alt="">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/tumblr.png" alt="">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/spotify.png" alt="">
+        </div>
+        <div class="download-from">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/app_store_badge.png" alt="">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/google_play_badge.png" alt="">
+        </div>
+
+    </div>
+    </footer>
+
+    <div class="end">
+        <div class="row1">
+            <div class="part1">
+            <p>Privacy (Updated)</p>
+            <p>California Privacy Notice</p>
+            <p>Terms & Conditions</p>
+            <p>Accessibility</p>
+        </div>
+        <div class="part2">
+            <img src="https://cdn.cookielaw.org/logos/beafaae6-1861-4a9a-ab0e-c20b9b2adc2a/89aa100c-2174-4c5c-b9b8-e5adfc68c65e/633961d1-5961-470a-8c82-aff43d185595/arches-logo_108x108_(2).jpg" alt="">
+            <p>© 2017 - 2023 McDonald's. All Rights <br>Reserved</p>
+        </div>
+    </div>
+    <div class="row2">
+        <p>Do Not Sell or Share My Personal Information</p>
+        <p>Cookies Settings</p>
+
+    </div>
+    </div>
+</body>
+</html>
